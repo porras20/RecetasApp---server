@@ -13,7 +13,7 @@ app.use("/auth", userRouter);
 app.use("/recipes", recipesRouter);
 
 mongoose.connect(
-  "mongodb+srv://juanjoseporras2019:Lstqi7PA4jYCWyCb@recipes.dnqbtdf.mongodb.net/recipes?retryWrites=true&w=majority",
+  "URI_MONGODB",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
