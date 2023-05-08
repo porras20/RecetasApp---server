@@ -13,7 +13,7 @@ app.use("/auth", userRouter);
 app.use("/recipes", recipesRouter);
 
 mongoose.connect(
-  "URI_MONGODB",
+  "URI_mongo",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
